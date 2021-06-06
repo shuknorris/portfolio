@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #f1f1f1;
   padding: 20px;
   font-family: Arial;
+  width: auto;
+  height: auto;
 }
 
 /* Center website */
@@ -46,12 +49,18 @@ h1 {
 .content {
   background-color: white;
   padding: 10px;
+  height: auto;
+  width: auto;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
+  .column  {
+    width: 75%;
   }
 }
 
