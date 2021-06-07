@@ -16,14 +16,15 @@ body {
   background-color: #f1f1f1;
   padding: 20px;
   display: grid;
-  flex: 1 4 100px;
-  font-family: Arial;
+  /* display: grid; */
+  /* flex: 1 4 100px; */
+  /* font-family: Arial; */
 }
 
 /* Center website */
 .main {
   max-width: 1000px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 h1 {
@@ -31,15 +32,15 @@ h1 {
   word-break: break-all;
 }
 
-.row {
-  margin: 8px -16px;
-}
+/* .row { */
+  /* margin: 8px -16px; */
+/* } */
 
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
+/* .row, */
+/* .row > .column { */
+  /* padding: 8px; */
+/* } */
 
 /* Create four equal columns that floats next to each other */
 /* .column { */
@@ -68,7 +69,7 @@ h1 {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
-    width: 50%;
+    width: 100%;
   }
 }
 
