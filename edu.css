@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 2vw;
 }
 
 
@@ -17,9 +18,9 @@ body {
   margin: auto;
 }
 
-h1 {
-  font-size: 50px;
-  word-break: break-all;
+h1, h2, p{
+  font-size: 2.5vw;;
+
 }
 
 .row {
@@ -35,7 +36,8 @@ h1 {
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
+  /* width: 25%; */
+  font-size: 1.9vw;
 }
 
 /* Clear floats after rows */ 
@@ -74,7 +76,7 @@ h1 {
 }
 a {
   padding: 5px;
-  font-size: 20px;
+  font-size: 2.5vw;;
   text-decoration: brown;
 }
 nav {
